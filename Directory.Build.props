@@ -1,0 +1,15 @@
+<Project>
+
+  <PropertyGroup Label="Build">
+    <LangVersion>latest</LangVersion>
+    <EnforceCodeStyleInBuild>false</EnforceCodeStyleInBuild>
+    <AnalysisLevel>latest</AnalysisLevel>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+  </PropertyGroup>
+
+  <ItemGroup Label="Package References">
+    <PackageReference Include="StyleCop.Analyzers" PrivateAssets="All" Version="1.2.0-beta.435" />
+  </ItemGroup>
+  
+</Project>

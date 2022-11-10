@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{D668877B-D081-46D8-BF2F-0287E3BD719F}"
+	ProjectSection(SolutionItems) = preProject
+		Source\.editorconfig = Source\.editorconfig
+		Source\Directory.Build.props = Source\Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ComposerQC", "Source\ComposerQC\ComposerQC.csproj", "{D111A0BA-20EA-4010-9498-A8060051CA41}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1091E4D6-C742-42E2-8BAC-2676D02F92EA}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		Directory.Build.props = Directory.Build.props
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleStrategy", "Source\SampleStrategy\SampleStrategy.csproj", "{F31C4E1F-CC35-48CE-81B4-DE08474C56DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D111A0BA-20EA-4010-9498-A8060051CA41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D111A0BA-20EA-4010-9498-A8060051CA41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D111A0BA-20EA-4010-9498-A8060051CA41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D111A0BA-20EA-4010-9498-A8060051CA41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F31C4E1F-CC35-48CE-81B4-DE08474C56DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F31C4E1F-CC35-48CE-81B4-DE08474C56DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F31C4E1F-CC35-48CE-81B4-DE08474C56DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F31C4E1F-CC35-48CE-81B4-DE08474C56DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D111A0BA-20EA-4010-9498-A8060051CA41} = {D668877B-D081-46D8-BF2F-0287E3BD719F}
+		{F31C4E1F-CC35-48CE-81B4-DE08474C56DD} = {D668877B-D081-46D8-BF2F-0287E3BD719F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14C1352F-2C5F-4621-B000-039B43D30328}
+	EndGlobalSection
+EndGlobal

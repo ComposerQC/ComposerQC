@@ -1,0 +1,42 @@
+##########################################
+# .NET Formatting Conventions
+##########################################
+
+[*.cs]
+# CA1711: Identifiers should not have incorrect suffix
+# Justification: Some code is auto-generated.
+dotnet_diagnostic.CA1711.severity = none
+
+# CA1716: Identifiers should not match keywords
+# Justification: Some code is auto-generated.
+dotnet_diagnostic.CA1716.severity = none
+
+# CA1720: Identifier contains type name
+# Justification: Some code is auto-generated.
+dotnet_diagnostic.CA1720.severity = none
+
+# IDE0005: Using directive is unnecessary.
+# Justification: Some code is auto-generated.
+dotnet_diagnostic.IDE0005.severity = none
+
+##########################################
+# StyleCop
+##########################################
+
+# SA1623: Property summary documentation should match accessors
+# Justification: Summary documentation is generated from schema.org.
+# https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1623.md
+dotnet_diagnostic.SA1623.severity = none
+
+# SA1629: Documentation text should end with a period
+# Justification: Summary documentation is generated from schema.org.
+# https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1629.md
+dotnet_diagnostic.SA1629.severity = none
+
+# SA1633: A C# code file is missing a standard file header.
+# Justification: Header file comments turned off
+# https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1633.md
+dotnet_diagnostic.SA1633.severity = none
+
+# VSTHRD111: Use ConfigureAwait(bool)
+dotnet_diagnostic.VSTHRD111.severity = none
