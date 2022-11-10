@@ -9,7 +9,7 @@ ComposerQC is licensed under the terms of the GNU General Public License v3.0.
 
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
-See the [LICENSE.txt](LICENSE.txt) file in this repository for more details.
+See the [LICENSE](LICENSE) file in this repository for more details.
 
 ## Features
 This is alpha software. There will likely be bugs, and not all Composer features are currently implemented.
